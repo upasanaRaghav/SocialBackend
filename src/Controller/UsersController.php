@@ -304,4 +304,13 @@ public function myViews()
 
 
 
+public function myImages()
+{
+    $userId = $this->Auth->user('id');
+
+    $views = $this->Users->Views->find('all')->where(['user_id' => $userId])->toList();
+
+    $this->set(compact('views'));
+}
+
 }

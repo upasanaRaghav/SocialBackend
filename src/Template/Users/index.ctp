@@ -10,6 +10,9 @@
         <li class="nav-item"><?= $this->Html->link(__('Add More Image'), ['controller' => 'Views', 'action' => 'add'], ['class' => 'nav-link']) ?> </li>
 
 <li class="nav-item"><?= $this->Html->link(__('My Views'), ['controller' => 'Users', 'action' => 'myViews'], ['class' => 'nav-link']) ?> </li>
+<li class="nav-item"><?= $this->Html->link(__('Public View'), ['controller' => 'Users', 'action' => 'myImages'], ['class' => 'nav-link']) ?> </li>
+<li class="nav-item"><?= $this->Html->link(__('Add Preference'), ['controller' => 'Roles', 'action' => 'add'], ['class' => 'nav-link']) ?> </li>
+
 <li class="nav-item">
     <?= $this->Html->link(__('Change Password'), ['controller' => 'Users', 'action' => 'password'], ['class' => 'nav-link']) ?>
 </li>

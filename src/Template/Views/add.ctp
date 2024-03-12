@@ -39,11 +39,7 @@ body {
                                 <?= $this->Form->create(null, ['type' => 'file']) ?>
 
                                 <?= $this->Form->control('name', ['label' => ['text' => 'Caption of Image', 'class' => 'font-weight-bold'], 'class' => 'form-control']); ?>
-                                <?= $this->Form->control('user_id', [
-                                    'label' => ['text' => 'Select the user for whom you want to send an image', 'class' => 'font-weight-bold'],
-                                    'placeholder' => 'Enter your name',
-                                    'class' => 'form-outline flex-fill mb-0'
-                                ]); ?>
+                          
                                 <?= $this->Form->control('image', ['type' => 'file']); ?>
 
                                 <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">

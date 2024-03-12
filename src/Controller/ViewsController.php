@@ -68,6 +68,9 @@ private function uploadImage($image)
 
     return $imageName;
 }
+public function visibility()
+{
+}
 
 public function myViews()
 {
